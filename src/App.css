@@ -16,3 +16,6 @@
   .HomeTeams th{
     text-align: left;
   }
+  .match-dropdown{
+    width: 300px;
+  }

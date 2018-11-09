@@ -5,6 +5,7 @@ const owners = [
     league: "Liga NOS",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -14,6 +15,7 @@ const owners = [
     league: "Liga NOS",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -23,6 +25,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -32,6 +35,7 @@ const owners = [
     league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -41,6 +45,7 @@ const owners = [
     league: "Eredivise",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -50,6 +55,7 @@ const owners = [
     league: "Eredivise",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -59,6 +65,7 @@ const owners = [
     league: "Eredivise",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -68,6 +75,7 @@ const owners = [
     league: "Süper Lig",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -77,6 +85,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -86,6 +95,7 @@ const owners = [
     league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -95,6 +105,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -104,6 +115,7 @@ const owners = [
     league: "Eredivise",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -113,6 +125,7 @@ const owners = [
     league: "Eredivise",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -122,6 +135,7 @@ const owners = [
     league: "Süper Lig",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -131,6 +145,7 @@ const owners = [
     league: "Liga NOS",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -140,6 +155,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -149,6 +165,7 @@ const owners = [
     league: "Eredivise",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -158,6 +175,7 @@ const owners = [
     league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -167,6 +185,7 @@ const owners = [
     league: "Süper Lig",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -176,6 +195,7 @@ const owners = [
     league: "Eredivise",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -185,6 +205,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -194,6 +215,7 @@ const owners = [
     league: "Liga NOS",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -203,6 +225,7 @@ const owners = [
     league: "Liga NOS",
     conf: 1,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -212,6 +235,7 @@ const owners = [
     league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -221,6 +245,7 @@ const owners = [
     league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   },
@@ -230,6 +255,7 @@ const owners = [
     league: "undecided",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
+    points:0,
     results: [],
     topGoalScorer: []
   }
