@@ -1,0 +1,18 @@
+  table{
+    width: 80%;
+    margin: 0px auto;
+  }
+  table, th, td {
+    border: 1px solid orange;
+  }
+  th, td {
+    padding: 10px;
+  }
+  .homeLTHeaders th{
+    font-size: 1.5rem;
+    background:#d3d3d3;
+    text-transform: uppercase;
+  }
+  .HomeTeams th{
+    text-align: left;
+  }
