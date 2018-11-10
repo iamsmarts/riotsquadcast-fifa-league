@@ -1,3 +1,8 @@
+  #root{
+    width: 100vw;
+
+  }
+
   table{
     width: 80%;
     margin: 0px auto;
@@ -16,6 +21,36 @@
   .HomeTeams th{
     text-align: left;
   }
-  .match-dropdown{
-    width: 300px;
+  .club-league{
+    display: none;
   }
+.match-entry{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 20px 0px;
+}
+.single-side-entry{
+  width: 100%;
+  padding: 20px;
+}
+.home-team{
+  background:#60afff;
+}
+.away-team{
+  background:#ffff60;
+}
+.match-vs{
+  align-self: center;
+}
+@media (min-width: 992px) {
+  .single-side-entry{
+    width: 40%;
+    padding: 20px;
+  }
+  .club-league{
+    display: block;
+  }
+}

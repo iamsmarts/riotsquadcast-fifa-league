@@ -1,18 +1,17 @@
 import React, { Component } from "react";
-import MatchEntry from './Components/Matchups';
+// import MatchEntry from "./Components/MatchEntry";
 // import League from './Components/League';
 // import Conference from "./Components/Conference";
-import "./App.css";
 
 
-// <League/>
 // <Conference conf={1} />
+// <League/>
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <MatchEntry/>
+
       </div>
     );
   }
