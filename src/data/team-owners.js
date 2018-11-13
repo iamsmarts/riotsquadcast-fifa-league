@@ -277,8 +277,8 @@ const owners = [
   {
     id: 26,
     owner: "dkline44",
-    club: "undecided",
-    league: "undecided",
+    club: "Yeni Malatyaspo",
+    league: "Süper Lig",
     conf: 2,
     record: { w: 0, d: 0, l: 0 },
     points: 0,

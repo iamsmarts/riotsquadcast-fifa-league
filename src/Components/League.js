@@ -4,14 +4,13 @@ import League from "../data/team-owners";
 class LeagueTable extends Component {
   state = {
     localLeague: [],
-    leagueLoaded:false,
-    firstConf: true,
-
+    leagueLoaded: false,
+    firstConf: true
   };
   componentDidMount() {
     if (!this.state.leagueLoaded) {
       this.setState({
-        localLeague: this.state.localLeague.concat(League) ,
+        localLeague: this.state.localLeague.concat(League),
         leagueLoaded: true
       });
     }
@@ -21,7 +20,7 @@ class LeagueTable extends Component {
     this.setState(prevState => {
       return {
         localLeague: confSort(prevState.localLeague),
-        firstConf: !prevState.activeConf,
+        firstConf: !prevState.activeConf
       };
     });
     const confSort = table => {
@@ -40,7 +39,7 @@ class LeagueTable extends Component {
   render() {
     return (
       <div className="row">
-        <table className="table table-bordered table-hover">
+        <table className="table table-bordered table-striped">
           <thead className="thead-dark">
             <tr className="homeLTHeaders">
               <th>Player</th>
