@@ -5,7 +5,9 @@ class Header extends Component {
   state = {
     navLinks: [
       { name: "Home", link: "/", exact: true },
-      { name: "Add Result", link: "/add-match", exact: false }
+      { name: "Add Result", link: "/add-match", exact: false },
+      { name: "Conference 1", link: "/conference-1", exact:false},
+      { name: "Conference 2", link: "/conference-2", exact:false}
     ],
     isCollapsed: true
   };

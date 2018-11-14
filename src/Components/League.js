@@ -45,7 +45,7 @@ class LeagueTable extends Component {
               <th>Player</th>
               <th>Club</th>
               <th className="d-none d-lg-block">CLub League</th>
-              <th onClick={this.confChange}>Division</th>
+              <th>Division</th>
               <th>W</th>
               <th>L</th>
               <th>D</th>

@@ -21,5 +21,18 @@
 .scorers-boxes{
     input{
         margin-right: 20px;
+        margin-bottom:10px;
     }
+    p{
+        margin:0px 0px 10px;
+    }
+    .material-icons{
+        font-size: 20px;
+    }
+}
+.list-group-item{
+    text-transform: capitalize;
+}
+.home-results{
+    margin-bottom:20px;
 }

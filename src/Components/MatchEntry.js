@@ -26,13 +26,22 @@ class MatchEntry extends Component {
   }
   render() {
     return (
-      <Select
-        className="match-dropdown col-sm-12 col-md-6"
-        placeholder={`${this.props.place} Team`}
-        value={this.state.selectedOption}
-        onChange={this.handleChange}
-        options={this.state.clubs}
-      />
+
+        <div className="col-sm-12">
+          <div className="row">
+            <div className="col">
+              <h3>{this.props.place} TEAM:</h3>
+            </div>
+            <Select
+              className="match-dropdown col-sm-12 col-md-6"
+              placeholder={`${this.props.place} Team`}
+              value={this.state.selectedOption}
+              onChange={this.handleChange}
+              options={this.state.clubs}
+            />
+
+          </div>
+        </div>
     );
   }
 }
