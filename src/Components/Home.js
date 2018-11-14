@@ -3,7 +3,7 @@ const Home = () => (
     <div className="wrap">
         <div className="jumbotron">
             <div className="container">
-                <h1 className="display-4">RiotSquad Fifa 19 <br/>Season 1</h1>
+                <h1 className="display-4">Squadcast Season 3</h1>
                 <h2>Rules:</h2>
                 <ul className="list-group">
                     <li className="list-group-item">26 teams, 2 divisions of 13, top 6 make playoffs</li>
